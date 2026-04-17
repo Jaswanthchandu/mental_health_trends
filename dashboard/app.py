@@ -18,6 +18,7 @@ df = df[df['LocationAbbr'].isin(states_50)]
 
 # Initialize app
 app = dash.Dash(__name__)
+server = app.server
 
 # Layout
 app.layout = html.Div([
