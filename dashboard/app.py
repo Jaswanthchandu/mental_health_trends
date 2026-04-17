@@ -1,3 +1,4 @@
+import os
 import dash
 from dash import dcc, html, Input, Output
 import plotly.express as px
@@ -5,7 +6,11 @@ import plotly.graph_objects as go
 import pandas as pd
 
 # Load data
-df = pd.read_csv('../data/processed/mental_health_clean.csv')
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+file_path = os.path.join(BASE_DIR, "data", "processed", "mental_health_clean.csv")
+
+df = pd.read_csv(file_path)
+
 
 # 50 states only
 states_50 = ['AL','AK','AZ','AR','CA','CO','CT','DE','FL','GA',
