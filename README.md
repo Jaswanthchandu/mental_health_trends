@@ -8,15 +8,13 @@ Plotly and deployed on Render.
 🔗 **Live App:** [https://mental-health-trends.onrender.com](https://mental-health-trends.onrender.com) 
 
 ---
-## 📂 Data Source
-
-- **CDC Chronic Disease Indicators — Mental Health**
-- 300,000+ records across 50 states (2019–2022)
-- Includes breakdowns by age, sex, race/ethnicity
-- [CDC U.S. Chronic Disease Indicators](https://data.cdc.gov/Chronic-Disease-Indicators/U-S-Chronic-Disease-Indicators/hksd-2xuw/about_data)
+##  Data Source
+- **Source:** [CDC U.S. Chronic Disease Indicators](https://data.cdc.gov/Chronic-Disease-Indicators/U-S-Chronic-Disease-Indicators/hksd-2xuw/about_data)
+- **Records:** 309,215 rows, 34 columns across 50 states
+- **Years:** 2019–2022
+- **Topic:** Mental Health indicators including depression, frequent mental distress, and postpartum depressive symptoms
 ---
 
----
 
 ## Project Overview
 
