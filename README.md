@@ -13,7 +13,7 @@ Plotly and deployed on Render.
 - **CDC Chronic Disease Indicators — Mental Health**
 - 300,000+ records across 50 states (2019–2022)
 - Includes breakdowns by age, sex, race/ethnicity
-- - [CDC Chronic Disease Indicators](https://data.cdc.gov/Chronic-Disease-Indicators/hksd-2xuw)
+- [CDC U.S. Chronic Disease Indicators](https://data.cdc.gov/Chronic-Disease-Indicators/U-S-Chronic-Disease-Indicators/hksd-2xuw/about_data)
 ---
 
 ---
