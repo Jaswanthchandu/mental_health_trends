@@ -8,14 +8,6 @@ Plotly and deployed on Render.
 🔗 **Live App:** [https://mental-health-trends.onrender.com](https://mental-health-trends.onrender.com) 
 
 ---
-##  Data Source
-- **Primary Dataset:** [CDC Chronic Disease Indicators](https://data.cdc.gov/Chronic-Disease-Indicators/U-S-Chronic-Disease-Indicators/hksd-2xuw)  
-- **Alternate Access:** [CDC Chronic Disease Data Portal](https://www.cdc.gov/chronicdisease/data/index.htm)
-- **Records:** 309,215 rows, 34 columns across 50 states
-- **Years:** 2019–2022
-- **Topic:** Mental Health indicators including depression, frequent mental distress, and postpartum depressive symptoms
----
-
 
 ## Project Overview
 
@@ -23,6 +15,15 @@ This project analyzes how mental health conditions changed across the United
 States during the COVID-19 pandemic (2019–2022), using CDC Chronic Disease 
 Indicators data covering 300,000+ records across 50 states.
 
+---
+
+---
+##  Data Source
+- **Primary Dataset:** [CDC Chronic Disease Indicators](https://data.cdc.gov/Chronic-Disease-Indicators/U-S-Chronic-Disease-Indicators/hksd-2xuw)  
+- **Alternate Access:** [CDC Chronic Disease Data Portal](https://www.cdc.gov/chronicdisease/data/index.htm)
+- **Records:** 309,215 rows, 34 columns across 50 states
+- **Years:** 2019–2022
+- **Topic:** Mental Health indicators including depression, frequent mental distress, and postpartum depressive symptoms
 ---
 
 ## Key Findings
