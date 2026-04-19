@@ -1,72 +1,68 @@
-# 🧠 US Mental Health Trends Analysis (2019–2022)
 
-## 📌 Overview
+# US Mental Health Trends Dashboard (2019–2022)
 
-This project analyzes mental health trends across the United States using CDC data, focusing on the **impact of the COVID-19 pandemic (2019–2022)** on depression and mental distress across states and demographic groups.
+An interactive data visualization dashboard analyzing mental health trends 
+across all 50 U.S. states using CDC public health data. Built with Dash + 
+Plotly and deployed on Render.
+
+🔗 **Live App:** [https://mental-health-trends.onrender.com](https://mental-health-trends.onrender.com) 
+
+---
+## 📂 Data Source
+
+- **CDC Chronic Disease Indicators — Mental Health**
+- 300,000+ records across 50 states (2019–2022)
+- Includes breakdowns by age, sex, race/ethnicity
+- - [CDC Chronic Disease Indicators](https://data.cdc.gov/Chronic-Disease-Indicators/hksd-2xuw)
+---
 
 ---
 
-## 🎯 Objective
+## Project Overview
 
-* Identify high-risk states with elevated mental health issues
-* Analyze disparities across age, gender, and race/ethnicity
-* Compare mental health trends **before vs during COVID-19**
-* Build an interactive dashboard for data exploration
-
----
-
-## 🔍 Key Insights
-
-* 📈 Mental health distress **increased significantly during COVID (2020–2022)**
-* 🗺️ West Virginia, Tennessee, and Louisiana show consistently high prevalence
-* 👩 Females report higher distress than males across all states
-* 👥 Age group **18–44** is the most affected demographic
-* 🌎 Multiracial and American Indian/Alaska Native groups show highest rates
+This project analyzes how mental health conditions changed across the United 
+States during the COVID-19 pandemic (2019–2022), using CDC Chronic Disease 
+Indicators data covering 300,000+ records across 50 states.
 
 ---
 
-## 🛠️ Tech Stack
+## Key Findings
 
-* Python
-* Pandas
-* Matplotlib & Seaborn
-* Plotly
-* Dash
-
----
-
-## 📂 Project Structure
-
-```
-mental-health-trends/
-├── data/
-├── notebooks/
-├── dashboard/
-├── visuals/
-└── README.md
-```
+- **West Virginia** had the highest mental health prevalence (~19%) in 2022
+- **Females** reported significantly higher distress rates than males across all 50 states
+- **Age group 18–44** was the most affected demographic
+- **Seniors (65+)** showed the lowest mental health distress rates
+- **Multiracial and American Indian/Alaska Native** groups had highest racial disparities
+- **Mental health distress increased** during COVID (2020–2022) compared to pre-COVID (2019)
+- **Southern and Appalachian states** (TN, AR, LA, WV) consistently showed highest prevalence
+- **California and Nebraska** showed lowest prevalence rates nationally
 
 ---
 
-## ▶️ How to Run
+## Dashboard Features
 
-```
-pip install -r requirements.txt
-cd dashboard
-python app.py
-```
-
-Then open:
-http://127.0.0.1:8050
+-  **Interactive Choropleth Map** — state-wise mental health prevalence across 50 states
+-  **Trend Line Chart** — year-over-year prevalence for any selected state
+- **Demographic Breakdown** — insights by age group, sex, and race/ethnicity
+- **Pre vs During COVID Comparison** — visual impact of pandemic on mental health
+- **Dynamic Dropdowns** — filter by condition and state instantly
 
 ---
 
-## 📸 Dashboard Preview
+## Tech Stack
 
-![Dashboard](visuals/dashboard.png)
+| Purpose | Tool |
+|---|---|
+| Dashboard & Visualization | Dash, Plotly |
+| Data Processing | Pandas, NumPy |
+| Static Visualizations | Matplotlib, Seaborn |
+| Deployment | Render |
+| Version Control | Git + GitHub |
 
----
 
-## 🧠 Key Takeaway
+## Deployment
 
-This project demonstrates an **end-to-end data analytics pipeline**, from data cleaning and exploratory analysis to interactive dashboard development, applied to a real-world public health problem.
+Deployed on **Render** with:
+
+- Build Command: `pip install -r requirements.txt`
+- Start Command: `gunicorn dashboard.app:server`
