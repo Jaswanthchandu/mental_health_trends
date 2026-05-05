@@ -24,15 +24,12 @@ Indicators data covering 300,000+ records across 50 states.
 - **Southern and Appalachian states** (TN, AR, LA, WV) consistently showed highest prevalence
 - **California and Nebraska** showed lowest prevalence rates nationally
 
----
 ##  Data Source
 - **Primary Dataset:** [CDC Chronic Disease Indicators](https://data.cdc.gov/Chronic-Disease-Indicators/U-S-Chronic-Disease-Indicators/hksd-2xuw)  
 - **Alternate Access:** [CDC Chronic Disease Data Portal](https://www.cdc.gov/chronicdisease/data/index.htm)
 - **Records:** 309,215 rows, 34 columns across 50 states
 - **Years:** 2019–2022
 - **Topic:** Mental Health indicators including depression, frequent mental distress, and postpartum depressive symptoms
-
----
 
 ## Dashboard Features
 
@@ -41,8 +38,6 @@ Indicators data covering 300,000+ records across 50 states.
 - **Demographic Breakdown** — insights by age group, sex, and race/ethnicity
 - **Pre vs During COVID Comparison** — visual impact of pandemic on mental health
 - **Dynamic Dropdowns** — filter by condition and state instantly
-
----
 
 ## Tech Stack
 
