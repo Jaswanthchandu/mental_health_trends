@@ -54,7 +54,16 @@ Indicators data covering 300,000+ records across 50 states.
 - Built scalable interactive dashboards using Dash  
 - Applied exploratory data analysis on large public datasets (300K+ records)  
 - Identified real-world trends and disparities in public health data  
-- Strengthened data storytelling and visualization skills  
+- Strengthened data storytelling and visualization skills
+
+ ---
+
+## 📷 Screenshots
+
+<img width="1840" height="885" alt="Screenshot 2026-05-05 183109" src="https://github.com/user-attachments/assets/5fe6ecd0-7140-4d68-ade5-afb21d0c2430" />
+
+
+---
 
 ## Deployment
 
