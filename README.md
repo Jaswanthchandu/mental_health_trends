@@ -7,15 +7,12 @@ Plotly and deployed on Render.
 
 🔗 **Live App:** [https://mental-health-trends.onrender.com](https://mental-health-trends.onrender.com) 
 
----
-
 ## Project Overview
 
 This project analyzes how mental health conditions changed across the United 
 States during the COVID-19 pandemic (2019–2022), using CDC Chronic Disease 
 Indicators data covering 300,000+ records across 50 states.
 
----
 ## Key Findings
 
 - **West Virginia** had the highest mental health prevalence (~19%) in 2022
