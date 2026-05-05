@@ -16,14 +16,6 @@ States during the COVID-19 pandemic (2019–2022), using CDC Chronic Disease
 Indicators data covering 300,000+ records across 50 states.
 
 ---
-##  Data Source
-- **Primary Dataset:** [CDC Chronic Disease Indicators](https://data.cdc.gov/Chronic-Disease-Indicators/U-S-Chronic-Disease-Indicators/hksd-2xuw)  
-- **Alternate Access:** [CDC Chronic Disease Data Portal](https://www.cdc.gov/chronicdisease/data/index.htm)
-- **Records:** 309,215 rows, 34 columns across 50 states
-- **Years:** 2019–2022
-- **Topic:** Mental Health indicators including depression, frequent mental distress, and postpartum depressive symptoms
----
-
 ## Key Findings
 
 - **West Virginia** had the highest mental health prevalence (~19%) in 2022
@@ -34,6 +26,14 @@ Indicators data covering 300,000+ records across 50 states.
 - **Mental health distress increased** during COVID (2020–2022) compared to pre-COVID (2019)
 - **Southern and Appalachian states** (TN, AR, LA, WV) consistently showed highest prevalence
 - **California and Nebraska** showed lowest prevalence rates nationally
+
+---
+##  Data Source
+- **Primary Dataset:** [CDC Chronic Disease Indicators](https://data.cdc.gov/Chronic-Disease-Indicators/U-S-Chronic-Disease-Indicators/hksd-2xuw)  
+- **Alternate Access:** [CDC Chronic Disease Data Portal](https://www.cdc.gov/chronicdisease/data/index.htm)
+- **Records:** 309,215 rows, 34 columns across 50 states
+- **Years:** 2019–2022
+- **Topic:** Mental Health indicators including depression, frequent mental distress, and postpartum depressive symptoms
 
 ---
 
@@ -57,6 +57,12 @@ Indicators data covering 300,000+ records across 50 states.
 | Deployment | Render |
 | Version Control | Git + GitHub |
 
+## 💡 Key Learnings
+
+- Built scalable interactive dashboards using Dash  
+- Applied exploratory data analysis on large public datasets (300K+ records)  
+- Identified real-world trends and disparities in public health data  
+- Strengthened data storytelling and visualization skills  
 
 ## Deployment
 
